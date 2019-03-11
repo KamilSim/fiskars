@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Narzędzia ogrodowe - Fiskars</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#"><img src="./assets/picto/logo.png" alt="" class=""></a>
+    <a class="fb-logo-sm" href="https://facebook.com"><img src="./assets/picto/facebook-logo-button.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#products">produkty </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tips">inspiracje i porady</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">o nas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#location">kontakt</a>
+        </li>
+        <li class="nav-item fb-logo-lg">
+          <a class="nav-link" href="https://facebook.com"><img src="./assets/picto/facebook-logo-button.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <div class="container-fluid banner">
+    <div class="container">
+    <h1 class="section-name">Narzędzia <br> dla profesjonalistów</h1>
+    <p>Trwałe, wytrzymałe narzędzia i oparte na innowacyjnej <br> technologii ostrza to nasza wizytówka.</p>
+    <button class="round">
+      dowiedz się więcej
+    </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section  id="products" class="products">
+    <div class="container">
+      <h2 class="section-name">produkty</h2>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-3">
+          <div class="product">
+            <img src="./assets/picto/picto1.png" alt="" class="picto">
+            <h3>Sekatory</h3>
+            <p>Tootsie roll jelly-o croissant carrot cake gummies. Chocolate bar candy canes jelly-o caramels.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="product">
+            <img src="./assets/picto/picto2.png" alt="" class="picto">
+            <h3>Siekiery</h3>
+            <p>Tootsie roll jelly-o croissant carrot cake gummies. Chocolate bar candy canes jelly-o caramels.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="product">
+            <img src="./assets/picto/picto7.png" alt="" class="picto">
+            <h3>Piły do drewna</h3>
+            <p>Tootsie roll jelly-o croissant carrot cake gummies. Chocolate bar candy canes jelly-o caramels.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="product">
+            <img src="./assets/picto/picto3.png" alt="" class="picto">
+            <h3>Taczki</h3>
+            <p>Tootsie roll jelly-o croissant carrot cake gummies. Chocolate bar candy canes jelly-o caramels.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="product">
+            <img src="./assets/picto/picto4.png" alt="" class="picto">
+            <h3>Węże</h3>
+            <p>Tootsie roll jelly-o croissant carrot cake gummies. Chocolate bar candy canes jelly-o caramels.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="product">
+            <img src="./assets/picto/picto5.png" alt="" class="picto">
+            <h3>Rękawice</h3>
+            <p>Tootsie roll jelly-o croissant carrot cake gummies. Chocolate bar candy canes jelly-o caramels.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="product">
+            <img src="./assets/picto/picto6.png" alt="" class="picto">
+            <h3>Inne</h3>
+            <p>Tootsie roll jelly-o croissant carrot cake gummies. Chocolate bar candy canes jelly-o caramels.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tips" class="tips">
+    <div class="container">
+      <h2 class="section-name">inspiracje i porady</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="tip">
+            <h3>wiosenne przygotowania</h3>
+            <p>Chocolate danish halvah fruitcake soufflé. Gingerbread cupcake tootsie roll. Dessert danish jelly beans sweet roll tootsie roll gingerbread liquorice. Chupa chups sesame snaps pastry tiramisu dragée.</p>
+            <button class="round">czytaj więcej</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+        </div>
+        <div class="col-12 col-md-6 switch1">
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="tip">
+            <h3>jesienne porządki</h3>
+            <p>Chocolate danish halvah fruitcake soufflé. Gingerbread cupcake tootsie roll. Dessert danish jelly beans sweet roll tootsie roll gingerbread liquorice. Chupa chups sesame snaps pastry tiramisu dragée.</p>
+            <button class="round">czytaj więcej</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 switch2">
+        </div>
+      </div>
+    
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-name">o nas</h2>
+      <q>Każdego dnia pozostajemy wierni stuleciom dumy, pasji i doskonałego wzornictwa</q>
+      <h4>Fiskars Team</h4>
+      <button class="round">poznaj naszą firmę</button>
+    </div>
+  </section>
+
+  <section id="location"  class="location">
+    <h2 class="section-name">znajdź nas</h2>
+  
+    <div class="map-wrapper">
+      <div id="map">
+      </div>
+    </div>
+    
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-3">
+        <div class="address">
+          <h3> Dane adresowe</h3>
+          <p>ul. Mickiewicza 3/7, 41-600 Katowice <br> +48 111 222 333 <br> imienazwisko@fiskars.com.pl</p>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-3">
+        <div class="address">
+          <h3> Dane adresowe</h3>
+          <p>ul. Mickiewicza 3/7, 41-600 Katowice <br> +48 111 222 333 <br> imienazwisko@fiskars.com.pl</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3">
+        <div class="address">
+          <h3> Dane adresowe</h3>
+          <p>ul. Mickiewicza 3/7, 41-600 Katowice <br> +48 111 222 333 <br> imienazwisko@fiskars.com.pl</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3">
+        <div class="address">
+          <h3> Dane adresowe</h3>
+          <p>ul. Mickiewicza 3/7, 41-600 Katowice <br> +48 111 222 333 <br> imienazwisko@fiskars.com.pl</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+   <script src="script.js"></script>
+</body>
+
+</html>
